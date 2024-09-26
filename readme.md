@@ -35,8 +35,8 @@ Persona registrada en una cuenta de empresa (administrador, operadores y/o recur
 ### Operador
 Miembro del personal encargado del seguimiento diario de las operaciones. Los operadores asignan nuevos servicios, reciben alertas y monitorean actividades. Sin embargo, la configuración de la cuenta (ej. edición de formularios, creación de usuarios) solo es permitida al administrador.
 
-### Recursos
-Trabajadores en campo (técnicos, instaladores, conductores, etc.) que usan la aplicación móvil y son rastreados en tiempo real.
+### Prestador del servicio
+Usuarios responsables de realizar la ejecución de servicio asignado.
 
 ### Clientes
 Clientes o empresas registradas en tu cuenta.

@@ -1,4 +1,4 @@
-# Obtener tipos de servicios
+# Obtener tipos de servicio
 
 <div style="display: flex; justify-content: space-between;">
 
@@ -53,8 +53,9 @@ curl -X GET \
             "description": "Description sample"
         }
     ],
+    "total": 2,
     "page_size": 200,
-    "total": 2
+    "page": 1,
 }
 ```
 </div>
