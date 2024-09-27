@@ -27,13 +27,13 @@
 | `destination_coords`  | Coordenadas del destino, que incluye:                       | Object              |
 |                       | └ `latitude` - Latitud del destino.                         | Number              |
 |                       | └ `longitude` - Longitud del destino.                       | Number              |
-| `timezone`            | Zona horaria del destino en formato UTC (p.ej., -5 para EST).| Integer             |
 | `is_priority`         | (opcional) Indica si el servicio es prioritario (true/false).           | Boolean             |
 
-
+### Nota:
+El campo *execution_date* debe enviarse en formato ISO 8601. Esto implica que cualquier fecha y hora, independientemente de la zona horaria, debe convertirse a este formato estándar antes de enviarse en la solicitud.
 
 ## Tipo de respuesta: 
-```Object { Array[Object, Object, ...] }```
+```Object { Object }```
 
 </div>
 
@@ -58,10 +58,9 @@ curl -X POST \
         "execution_date": "2024-10-01T21:04:08.431Z",
         "destination_address": "1234 Elm Street",
         "destination_coords": {
-            "latitude": 40.7128,
-            "longitude": -74.0060
+            "latitude": 6.2446,
+            "longitude": 75.5916
         },
-        "timezone": -5,
         "is_priority": true
     }'
 ```
@@ -69,7 +68,43 @@ curl -X POST \
 ### Ejemplo de la respuesta
 
 ```json
-
+{
+    "service": {
+        "name": "sample request service",
+        "confirmed_by_final_customer": false,
+        "is_priority": false,
+        "destination_coords": {
+            "latitude": 6.2446,
+            "longitude": 75.5916
+        },
+        "is_removed": false,
+        "is_suite": true,
+        "is_self_scheduled": false,
+        "is_legal_terms_accepted_by_final_customer": false,
+        "private_id": "1917",
+        "execution_date": "2024-10-01T21:04:08.431Z",
+        "id_account": "WKTG3GByCq7Aat4nz",
+        "assigned_to": "MAtcKu3tkbr8StkHc",
+        "service_type": "rv9RoAdeScEAH9kTY",
+        "customer": "kov2E5BopbYbtiZx6",
+        "contact": "cd2WHZ3iBsMMN5zTP",
+        "destination_address": "1234 Elm Street",
+        "description": "service request for customer",
+        "reference": "ref 001",
+        "final_customer": "dPnjP7wd2Soowc3sS",
+        "id_author": "dWboLnLqHNvY4MojK",
+        "status": 1,
+        "profile_type": 4,
+        "_id": "66f70140feee6400501ac922",
+        "is_reminders_sent": [],
+        "future_reminders_sent": [],
+        "is_confirmation_sent": [],
+        "created_at": "2024-09-27T19:02:24.215Z",
+        "updated_at": "2024-09-27T19:02:24.215Z",
+        "__v": 0,
+        "id": "66f70140feee6400501ac922"
+    }
+}
 ```
 </div>
 </div>
