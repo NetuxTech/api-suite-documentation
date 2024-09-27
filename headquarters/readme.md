@@ -6,4 +6,4 @@ La API de sedes de Suite permite interactuar con los datos de las sedes registra
 
 ## Endpoints
 
-- [Obtener tipos de servicios](/headquarters/endpoints/get-headquarters.md) : ```GET /public/headquarters```
+- [Obtener sedes](/headquarters/endpoints/get-headquarters.md) : ```GET /public/headquarters```
