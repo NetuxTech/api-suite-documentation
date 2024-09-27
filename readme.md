@@ -80,7 +80,7 @@ Authorization: Bearer TOKEN
 | 400    | Solicitud errónea        | Hubo un error en la solicitud, por ejemplo, datos faltantes o no válidos.    |
 | 401    | No autorizado            | Falta el token de autenticación o es inválido.                               |
 | 404    | No encontrado            | El recurso solicitado no fue encontrado.                                     |
-| 422    | Entidad no procesable    | El servidor no puede procesar la solicitud debido a la información enviada.  |
+| 422    | Entidad no procesada    | El servidor no puede procesar la solicitud debido a la información enviada.  |
 | 500    | Error del servidor       | Error interno del servidor. Intenta nuevamente más tarde.                    |
 
 
