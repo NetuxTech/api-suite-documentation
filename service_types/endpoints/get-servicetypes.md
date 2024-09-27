@@ -16,7 +16,16 @@
 |-------------------|----------------------------------------------------------------------------------------------------------------|---------------|
 | `page`            | (opcional) Especifica la página de tipos de servicios a ser obtenidos. Cada página retorna hasta 200 tipos de servicios. Por defecto será 1. | Number        |
 | `service_types[]` | (opcional) Lista de IDs de tipos de servicios específicos para obtener detalles de esos tipos de servicios.      | String |
-| `service_types`   | (opcional) ID único de un tipo de servicio para obtener información específica de ese tipo de servicio.          | String        |
+
+### Filtrado con Parámetros Repetibles
+
+Algunos parámetros como `service_types[]` pueden enviarse **múltiples veces** en la misma solicitud para filtrar por varios ítems.
+
+#### Ejemplo:
+```bash
+GET /api/service-types?service_types[]=1&service_types[]=2
+```
+
 
 ## Tipo de respuesta: 
 ```Object { Array[Object, Object, ...] }```
@@ -33,8 +42,6 @@ curl -X GET \
 	-H 'authorization: Bearer TOKEN' \
 	-H 'cache-control: no-cache' \
 	-H 'content-type: application/json' \
-}'
-
 ```
 
 ### Ejemplo de la respuesta

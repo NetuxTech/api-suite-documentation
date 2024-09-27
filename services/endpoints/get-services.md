@@ -12,21 +12,29 @@
 
 ## Referencia de la solicitud:
 
-## Referencia de la solicitud:
-
 | Atributo                   | Descripción                                                                           | Tipo de dato  |
 |----------------------------|---------------------------------------------------------------------------------------|---------------|
+| `page`          | (opcional) Especifica la página de servicios a ser obtenidos. Cada página retorna hasta 20 servicios. Por defecto será 1. | Number        |
+| `service_ids[]`             | (opcional) ID del servicio           |  String |
 | `execution_date_init`       | (opcional) Fecha de inicio para filtrar los servicios por la fecha de ejecución.      | String (ISO 8601) |
 | `execution_date_end`        | (opcional) Fecha de fin para filtrar los servicios por la fecha de ejecución.         | String (ISO 8601) |
-| `include_service_type_variables` | (opcional) Indica si se deben incluir variables relacionadas con el tipo de servicio. | Boolean       |
 | `init_updated_at`           | (opcional) Fecha de inicio para filtrar por la última actualización de los servicios. | String (ISO 8601) |
 | `end_updated_at`            | (opcional) Fecha de fin para filtrar por la última actualización de los servicios.    | String (ISO 8601) |
+| `reference` | (opcional) Referencia del servicio. | String       |
 | `customer`                  | (opcional) ID del cliente asociado al servicio.                                       | String        |
 | `final_customer`            | (opcional) ID del cliente final asociado al servicio.                                 | String        |
 | `assigned_to`               | (opcional) ID del usuario asignado al servicio.                                       | String        |
 | `service_types[]`           | (opcional) IDs de los tipos de servicio para filtrar los servicios.                    |  String |
+| `include_service_type_variables` | (opcional) Indica si se deben incluir variables relacionadas con el tipo de servicio. | Boolean       |
 
+### Filtrado con Parámetros Repetibles
 
+Algunos parámetros como `service_ids[]` y `service_types[]` pueden enviarse **múltiples veces** en la misma solicitud para filtrar por varios ítems.
+
+#### Ejemplo:
+```bash
+GET /api/services?service_ids[]=1&service_ids[]=2
+```
 
 ## Tipo de respuesta: 
 ```Object { Array[Object, Object, ...] }```
@@ -43,8 +51,6 @@ curl -X GET \
 	-H 'authorization: Bearer TOKEN' \
 	-H 'cache-control: no-cache' \
 	-H 'content-type: application/json' \
-}'
-
 ```
 
 ### Ejemplo de la respuesta

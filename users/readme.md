@@ -16,8 +16,8 @@ La API de Usuarios de Suite permite interactuar con los datos de los usuarios re
 |------------------------------------|--------|
 | Administrador                      | 1      |
 | Operador (Usuario de operaciones)  | 2      |
-| Recurso (Usuario en campo)         | 4      |
-| Interesado (Acceso usuarios externos)  | 5      |
+| Prestador del servicio             | 4      |
+| Interesado (Acceso externos)       | 5      |
 
 
 **Nota**: Estos nombres de tipos de usuario pueden variar según la personalización y el uso específico de cuenta en *Suite*.

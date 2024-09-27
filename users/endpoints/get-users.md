@@ -17,11 +17,19 @@
 |-----------------|---------------------------------------------------------------------------------------------------------------|---------------|
 | `page`          | (opcional) Especifica la página de usuarios a ser obtenidos. Cada página retorna hasta 20 usuarios. Por defecto será 1. | Number        |
 | `profile_type`  | (opcional) Filtra los usuarios según el tipo de perfil especificado.                                           | Number        |
-| `user_ids[]`    | (opcional) Lista de IDs de usuarios específicos para obtener detalles de esos usuarios.                       | Array de String |
-| `user_ids`      | (opcional) ID único de un usuario para obtener información específica de un usuario.                          | String        |
-| `specialities[]`| (opcional) Lista de especialidades para filtrar usuarios con dichas especialidades.                            |  String |
+| `user_ids[]`    | (opcional) ID de usuario específico para obtener detalles de ese usuario.                       |  String |
+| `specialities[]`| (opcional) Especialidad para filtrar usuarios con dicha especialidad.                            |  String |
 | `headquarter`   | (opcional) Filtra los usuarios según una sede específica.                                                     | String        |
-| `headquarters[]`| (opcional) Lista de sedes para filtrar usuarios asociados a dichas sedes.                                      | String |
+| `headquarters[]`| (opcional) ID de sede para filtrar usuarios asociados con dicha sede.                                      | String |
+
+### Filtrado con Parámetros Repetibles
+
+Algunos parámetros como `user_ids[]`, `specialities[]` y `headquarters[]` pueden enviarse **múltiples veces** en la misma solicitud para filtrar por varios ítems.
+
+#### Ejemplo:
+```bash
+GET /api/users?user_ids[]=1&user_ids[]=2
+```
 
 
 ## Tipo de respuesta: 
@@ -39,7 +47,6 @@ curl -X GET \
 	-H 'authorization: Bearer TOKEN' \
 	-H 'cache-control: no-cache' \
 	-H 'content-type: application/json' \
-}'
 ```
 
 ### Ejemplo de la respuesta

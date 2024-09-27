@@ -15,8 +15,18 @@
 | Atributo         | Descripción                                                                                                  | Tipo de dato  |
 |------------------|--------------------------------------------------------------------------------------------------------------|---------------|
 | `page`           | (opcional) Especifica la página de sedes a ser obtenidas. Cada página retorna hasta 200 sedes. Por defecto será 1. | Number        |
-| `headquarters[]` | (opcional) Lista de IDs de sedes específicas para obtener detalles de esas sedes.                             | String |
-| `headquarters`   | (opcional) ID único de una sede para obtener información específica de esa sede.                              | String        |
+| `headquarter_ids[]` | (opcional) Lista de IDs de sedes específicas para obtener detalles de esas sedes.                             | String |
+
+
+### Filtrado con Parámetros Repetibles
+
+Algunos parámetros como `headquarter_ids[]` pueden enviarse **múltiples veces** en la misma solicitud para filtrar por varios ítems.
+
+#### Ejemplo:
+```bash
+GET /api/headquarters?headquarter_ids[]=1&headquarter_ids[]=2
+```
+
 
 ## Tipo de respuesta: 
 ```Object { Array[Object, Object, ...] }```
@@ -33,7 +43,6 @@ curl -X GET \
 	-H 'authorization: Bearer TOKEN' \
 	-H 'cache-control: no-cache' \
 	-H 'content-type: application/json' \
-}'
 ```
 
 ### Ejemplo de la respuesta

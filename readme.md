@@ -17,7 +17,7 @@ Puedes integrar tus aplicaciones con nuestra API para crear y obtener datos de:
 
 
 **¿Necesitas ayuda?**  
-Contáctanos en [tapptus@netux.com](mailto:tapptus@netux.com) y con gusto te ayudaremos con la integración.
+Contáctanos en [soporte@netux.com](mailto:soporte@netux.com) y con gusto te ayudaremos con la integración.
 
 ---
 
@@ -30,13 +30,13 @@ Esta API permite capturar datos de servicios ejecutadas por trabajadores en camp
 ## Definiciones clave
 
 ### Usuario
-Persona registrada en una cuenta de empresa (administrador, operadores y/o recursos) que accede a *Suite* a través de la aplicación web o móvil.
+Persona registrada en una cuenta de empresa (administrador, operadores y prestadores de servicio) que accede a *Suite* a través de la aplicación web o móvil.
 
 ### Operador
 Miembro del personal encargado del seguimiento diario de las operaciones. Los operadores asignan nuevos servicios, reciben alertas y monitorean actividades. Sin embargo, la configuración de la cuenta (ej. edición de formularios, creación de usuarios) solo es permitida al administrador.
 
 ### Prestador del servicio
-Usuarios responsables de realizar la ejecución de servicio asignado.
+Usuarios responsables de realizar la ejecución del servicio asignado.
 
 ### Clientes
 Clientes o empresas registradas en tu cuenta.
@@ -45,7 +45,7 @@ Clientes o empresas registradas en tu cuenta.
 Información de personas asociadas a cada cliente (por ejemplo, personas de contacto asociadas a un cliente).
 
 ### Servicios
-Tareas asignadas a los recursos.
+Tareas asignadas a los prestadores de servicio.
 
 
 ---
