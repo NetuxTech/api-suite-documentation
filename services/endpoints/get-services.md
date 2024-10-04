@@ -14,7 +14,8 @@
 
 | Atributo                   | Descripción                                                                           | Tipo de dato  |
 |----------------------------|---------------------------------------------------------------------------------------|---------------|
-| `page`          | (opcional) Especifica la página de servicios a ser obtenidos. Cada página retorna hasta 20 servicios. Por defecto será 1. | Number        |
+| `page`          | (opcional) Especifica la página de servicios a ser obtenidos. Cada página retorna hasta 20 servicios por default en caso no de especificar page_size. Por defecto será 1. | Number        |
+| `page_size`          | (opcional) Especifica la cantidad de servicios a ser obtenidos por página. Por defecto será 20 y como máximo puede ser retornado 200 | Number        |
 | `service_ids[]`             | (opcional) ID del servicio           |  String |
 | `execution_date_init`       | (opcional) Fecha de inicio para filtrar los servicios por la fecha de ejecución.      | String (ISO 8601) |
 | `execution_date_end`        | (opcional) Fecha de fin para filtrar los servicios por la fecha de ejecución.         | String (ISO 8601) |
@@ -176,6 +177,21 @@ curl -X GET \
                 "_id": "YDRkctp7SYWSX4AxJ",
                 "name": "Completed",
                 "color": "#2ab72e"
+            },
+            "final_customer_information": {
+                "_id": "1234567890abcdef12345678",
+                "identification_type": "CC",
+                "identification": "123456789",
+                "first_name": "JOHN",
+                "last_name": "DOE",
+                "second_last_name": "SMITH",
+                "birth_date": "01/01/1990",
+                "biological_sex": "Hombre",
+                "health_insurance_code": "EPS999",
+                "email": "john.doe@example.com",
+                "mobile_phone": "3001234567",
+                "name": "JOHN DOE SMITH",
+                "fullname": "JOHN DOE SMITH"
             }
         }
     ],
