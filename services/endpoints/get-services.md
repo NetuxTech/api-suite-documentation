@@ -28,6 +28,12 @@
 | `service_types[]`           | (opcional) IDs de los tipos de servicio para filtrar los servicios.                    |  String |
 | `include_service_type_variables` | (opcional) Indica si se deben incluir variables relacionadas con el tipo de servicio. | Boolean       |
 
+| `include_service_extended_data` | (opcional) Indica si se deben incluir en la respuesta el flujo de servicio extendido. | Boolean       |
+
+| `include_service_summary_data` | (opcional) (opcional) Indica si se deben incluir en la respuesta los datos de resumen de servicio. | Boolean       |
+
+| `include_service_review_data` | (opcional) Indica si se deben incluir en la respuesta el flujo de revisión de servicio. | Boolean       |
+
 ### Filtrado con Parámetros Repetibles
 
 Algunos parámetros como `service_ids[]` y `service_types[]` pueden enviarse **múltiples veces** en la misma solicitud para filtrar por varios ítems.
@@ -90,7 +96,9 @@ curl -X GET \
             "assigned_to": "MAtcKu3tkbr8StkHc",
             "execution_date": "2024-09-19T21:35:53.205Z",
             "accepted_date": "2024-09-19T21:46:09.597Z",
-            "service_data_extended": null,
+            "service_extended_data": {...},
+            "service_summary_data": {...},
+            "service_review_data": {...},
             "service_completion_date": "2024-09-19T21:46:48.744Z",
             "service_begin_date": "2024-09-19T21:46:10.995Z",
             "customer_information": {
@@ -117,6 +125,20 @@ curl -X GET \
                 "_id": "YDRkctp7SYWSX4AxJ",
                 "name": "Completed",
                 "color": "#2ab72e"
+            },
+            "headquarter_information": {
+                "_id": "65dc149037d649022d77dbb3",
+                "is_removed": false,
+                "is_default": true,
+                "name": "Medellín",
+                "reference": "001",
+                "id_color": 19,
+                "destination_address": "Torre Médica cosultorio 13",
+                "phone": "6040000000",
+                "id_account": "65d",
+                "created_at": "2024-02-26T04:33:20.650Z",
+                "updated_at": "2024-02-26T04:36:09.900Z",
+                "__v": 0,
             }
         },
         {
@@ -150,7 +172,7 @@ curl -X GET \
             "assigned_to": "MAtcKu3tkbr8StkHc",
             "execution_date": "2024-09-19T21:35:53.205Z",
             "accepted_date": "2024-09-19T21:37:09.375Z",
-            "service_data_extended": null,
+            "service_extended_data": null,
             "service_completion_date": "2024-09-19T21:42:51.950Z",
             "service_begin_date": "2024-09-19T21:37:11.132Z",
             "customer_information": {
