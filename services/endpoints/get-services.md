@@ -189,7 +189,7 @@ curl -X GET \
                 "second_last_name": "SMITH",
                 "birth_date": "01/01/1990",
                 "biological_sex": "Hombre",
-                "blood_Type": "A+",
+                "blood_type": "A+",
                 "health_insurance_code": "EPS999",
                 "email": "john.doe@example.com",
                 "mobile_phone": "3001234567",
