@@ -34,7 +34,7 @@ Algunos parámetros como `service_ids[]` y `service_types[]` pueden enviarse **m
 
 #### Ejemplo:
 ```bash
-GET /api/services?service_ids[]=1&service_ids[]=2
+GET /public/services?service_ids[]=1&service_ids[]=2
 ```
 
 ## Tipo de respuesta: 
@@ -182,16 +182,23 @@ curl -X GET \
                 "_id": "1234567890abcdef12345678",
                 "identification_type": "CC",
                 "identification": "123456789",
+                "destination_address": "HILLS 72",
                 "first_name": "JOHN",
                 "last_name": "DOE",
+                "second_name": "",
                 "second_last_name": "SMITH",
                 "birth_date": "01/01/1990",
                 "biological_sex": "Hombre",
+                "blood_Type": "A+",
                 "health_insurance_code": "EPS999",
                 "email": "john.doe@example.com",
                 "mobile_phone": "3001234567",
                 "name": "JOHN DOE SMITH",
-                "fullname": "JOHN DOE SMITH"
+                "fullname": "JOHN DOE SMITH",
+                "nationality_country": "",
+                "optional_mobile_phone": "",
+                "residence_city": "",
+                "residence_state": "",
             }
         }
     ],

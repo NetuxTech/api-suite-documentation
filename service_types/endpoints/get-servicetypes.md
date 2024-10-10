@@ -23,7 +23,7 @@ Algunos parámetros como `service_types[]` pueden enviarse **múltiples veces** 
 
 #### Ejemplo:
 ```bash
-GET /api/service-types?service_types[]=1&service_types[]=2
+GET /public/service-types?service_types[]=1&service_types[]=2
 ```
 
 

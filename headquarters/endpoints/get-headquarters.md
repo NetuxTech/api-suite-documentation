@@ -24,7 +24,7 @@ Algunos parámetros como `headquarter_ids[]` pueden enviarse **múltiples veces*
 
 #### Ejemplo:
 ```bash
-GET /api/headquarters?headquarter_ids[]=1&headquarter_ids[]=2
+GET /public/headquarters?headquarter_ids[]=1&headquarter_ids[]=2
 ```
 
 
