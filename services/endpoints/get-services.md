@@ -26,10 +26,10 @@
 | `final_customer`            | (opcional) ID del cliente final asociado al servicio.                                 | String        |
 | `assigned_to`               | (opcional) ID del usuario asignado al servicio.                                       | String        |
 | `service_types[]`           | (opcional) IDs de los tipos de servicio para filtrar los servicios.                    |  String |
-| `include_service_type_variables` | (opcional) Indica si se deben incluir variables relacionadas con el tipo de servicio. | Boolean       |
-| `include_service_extended_data` | (opcional) Indica si se deben incluir en la respuesta el flujo de servicio extendido. | Boolean       |
-| `include_service_summary_data` | (opcional) (opcional) Indica si se deben incluir en la respuesta los datos de resumen de servicio. | Boolean       |
-| `include_service_review_data` | (opcional) Indica si se deben incluir en la respuesta el flujo de revisión de servicio. | Boolean       |
+| `include_service_type_variables` | (opcional) Indica si se deben incluir variables relacionadas con el tipo de servicio. Por defecto es *false* | Boolean       |
+| `include_service_extended_data` | (opcional) Indica si se deben incluir en la respuesta el flujo de servicio extendido. Por defecto es *false*  | Boolean       |
+| `include_service_summary_data` | (opcional) Indica si se deben incluir en la respuesta los datos de resumen de servicio. Por defecto es *false*  | Boolean       |
+| `include_service_review_data` | (opcional) Indica si se deben incluir en la respuesta el flujo de revisión de servicio. Por defecto es *false*  | Boolean       |
 
 ### Filtrado con Parámetros Repetibles
 
