@@ -23,11 +23,11 @@
 | `contact`             | ID del contacto principal para el servicio.                 | String              |
 | `assigned_to`         | ID del usuario o agente asignado al servicio.               | String              |
 | `execution_date`      | Fecha de ejecución del servicio (en formato ISO 8601).       | String (ISO 8601)   |
-| `destination_address` | Dirección de destino donde se debe realizar el servicio.     | String              |
-| `destination_coords`  | Coordenadas del destino, que incluye:                       | Object              |
+| `destination_address` | (opcional) Dirección de destino donde se debe realizar el servicio. Por defecto toma la dirección del contacto.     | String              |
+| `destination_coords`  | (opcional) Coordenadas del destino, que incluye:                       | Object              |
 |                       | └ `latitude` - Latitud del destino.                         | Number              |
 |                       | └ `longitude` - Longitud del destino.                       | Number              |
-| `is_priority`         | (opcional) Indica si el servicio es prioritario (true/false).           | Boolean             |
+| `is_priority`         | (opcional) Indica si el servicio es prioritario (true/false). Por defecto es False.           | Boolean             |
 
 ### Nota:
 El campo *execution_date* debe enviarse en formato ISO 8601. Esto implica que cualquier fecha y hora, independientemente de la zona horaria, debe convertirse a este formato estándar antes de enviarse en la solicitud.

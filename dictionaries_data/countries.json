@@ -1,0 +1,998 @@
+[
+  {
+    "common_name": "Afganistán",
+    "iso_alpha3_code": "AFG"
+  },
+  {
+    "common_name": "Åland",
+    "iso_alpha3_code": "ALA"
+  },
+  {
+    "common_name": "Albania",
+    "iso_alpha3_code": "ALB"
+  },
+  {
+    "common_name": "Alemania",
+    "iso_alpha3_code": "DEU"
+  },
+  {
+    "common_name": "Andorra",
+    "iso_alpha3_code": "AND"
+  },
+  {
+    "common_name": "Angola",
+    "iso_alpha3_code": "AGO"
+  },
+  {
+    "common_name": "Anguila",
+    "iso_alpha3_code": "AIA"
+  },
+  {
+    "common_name": "Antártida",
+    "iso_alpha3_code": "ATA"
+  },
+  {
+    "common_name": "Antigua y Barbuda",
+    "iso_alpha3_code": "ATG"
+  },
+  {
+    "common_name": "Arabia Saudita",
+    "iso_alpha3_code": "SAU"
+  },
+  {
+    "common_name": "Argelia",
+    "iso_alpha3_code": "DZA"
+  },
+  {
+    "common_name": "Argentina",
+    "iso_alpha3_code": "ARG"
+  },
+  {
+    "common_name": "Armenia",
+    "iso_alpha3_code": "ARM"
+  },
+  {
+    "common_name": "Aruba",
+    "iso_alpha3_code": "ABW"
+  },
+  {
+    "common_name": "Australia",
+    "iso_alpha3_code": "AUS"
+  },
+  {
+    "common_name": "Austria",
+    "iso_alpha3_code": "AUT"
+  },
+  {
+    "common_name": "Azerbaiyán",
+    "iso_alpha3_code": "AZE"
+  },
+  {
+    "common_name": "Bahamas",
+    "iso_alpha3_code": "BHS"
+  },
+  {
+    "common_name": "Bangladés",
+    "iso_alpha3_code": "BGD"
+  },
+  {
+    "common_name": "Barbados",
+    "iso_alpha3_code": "BRB"
+  },
+  {
+    "common_name": "Baréin",
+    "iso_alpha3_code": "BHR"
+  },
+  {
+    "common_name": "Bélgica",
+    "iso_alpha3_code": "BEL"
+  },
+  {
+    "common_name": "Belice",
+    "iso_alpha3_code": "BLZ"
+  },
+  {
+    "common_name": "Benín",
+    "iso_alpha3_code": "BEN"
+  },
+  {
+    "common_name": "Bermudas",
+    "iso_alpha3_code": "BMU"
+  },
+  {
+    "common_name": "Bielorrusia",
+    "iso_alpha3_code": "BLR"
+  },
+  {
+    "common_name": "Bolivia",
+    "iso_alpha3_code": "BOL"
+  },
+  {
+    "common_name": "Bonaire, San Eustaquio y Saba",
+    "iso_alpha3_code": "BES"
+  },
+  {
+    "common_name": "Bosnia y Herzegovina",
+    "iso_alpha3_code": "BIH"
+  },
+  {
+    "common_name": "Botsuana",
+    "iso_alpha3_code": "BWA"
+  },
+  {
+    "common_name": "Brasil",
+    "iso_alpha3_code": "BRA"
+  },
+  {
+    "common_name": "Brunéi",
+    "iso_alpha3_code": "BRN"
+  },
+  {
+    "common_name": "Bulgaria",
+    "iso_alpha3_code": "BGR"
+  },
+  {
+    "common_name": "Burkina Faso",
+    "iso_alpha3_code": "BFA"
+  },
+  {
+    "common_name": "Burundi",
+    "iso_alpha3_code": "BDI"
+  },
+  {
+    "common_name": "Bután",
+    "iso_alpha3_code": "BTN"
+  },
+  {
+    "common_name": "Cabo Verde",
+    "iso_alpha3_code": "CPV"
+  },
+  {
+    "common_name": "Camboya",
+    "iso_alpha3_code": "KHM"
+  },
+  {
+    "common_name": "Camerún",
+    "iso_alpha3_code": "CMR"
+  },
+  {
+    "common_name": "Canadá",
+    "iso_alpha3_code": "CAN"
+  },
+  {
+    "common_name": "Catar",
+    "iso_alpha3_code": "QAT"
+  },
+  {
+    "common_name": "Chad",
+    "iso_alpha3_code": "TCD"
+  },
+  {
+    "common_name": "Chile",
+    "iso_alpha3_code": "CHL"
+  },
+  {
+    "common_name": "China",
+    "iso_alpha3_code": "CHN"
+  },
+  {
+    "common_name": "Chipre",
+    "iso_alpha3_code": "CYP"
+  },
+  {
+    "common_name": "Colombia",
+    "iso_alpha3_code": "COL"
+  },
+  {
+    "common_name": "Comoras",
+    "iso_alpha3_code": "COM"
+  },
+  {
+    "common_name": "Corea del Norte",
+    "iso_alpha3_code": "PRK"
+  },
+  {
+    "common_name": "Corea del Sur",
+    "iso_alpha3_code": "KOR"
+  },
+  {
+    "common_name": "Costa de Marfil",
+    "iso_alpha3_code": "CIV"
+  },
+  {
+    "common_name": "Costa Rica",
+    "iso_alpha3_code": "CRI"
+  },
+  {
+    "common_name": "Croacia",
+    "iso_alpha3_code": "HRV"
+  },
+  {
+    "common_name": "Cuba",
+    "iso_alpha3_code": "CUB"
+  },
+  {
+    "common_name": "Curazao",
+    "iso_alpha3_code": "CUW"
+  },
+  {
+    "common_name": "Dinamarca",
+    "iso_alpha3_code": "DNK"
+  },
+  {
+    "common_name": "Dominica",
+    "iso_alpha3_code": "DMA"
+  },
+  {
+    "common_name": "Ecuador",
+    "iso_alpha3_code": "ECU"
+  },
+  {
+    "common_name": "Egipto",
+    "iso_alpha3_code": "EGY"
+  },
+  {
+    "common_name": "El Salvador",
+    "iso_alpha3_code": "SLV"
+  },
+  {
+    "common_name": "Emiratos Árabes Unidos",
+    "iso_alpha3_code": "ARE"
+  },
+  {
+    "common_name": "Eritrea",
+    "iso_alpha3_code": "ERI"
+  },
+  {
+    "common_name": "Eslovaquia",
+    "iso_alpha3_code": "SVK"
+  },
+  {
+    "common_name": "Eslovenia",
+    "iso_alpha3_code": "SVN"
+  },
+  {
+    "common_name": "España",
+    "iso_alpha3_code": "ESP"
+  },
+  {
+    "common_name": "Estados Unidos",
+    "iso_alpha3_code": "USA"
+  },
+  {
+    "common_name": "Estonia",
+    "iso_alpha3_code": "EST"
+  },
+  {
+    "common_name": "Etiopía",
+    "iso_alpha3_code": "ETH"
+  },
+  {
+    "common_name": "Filipinas",
+    "iso_alpha3_code": "PHL"
+  },
+  {
+    "common_name": "Finlandia",
+    "iso_alpha3_code": "FIN"
+  },
+  {
+    "common_name": "Fiyi",
+    "iso_alpha3_code": "FJI"
+  },
+  {
+    "common_name": "Francia",
+    "iso_alpha3_code": "FRA"
+  },
+  {
+    "common_name": "Gabón",
+    "iso_alpha3_code": "GAB"
+  },
+  {
+    "common_name": "Gambia",
+    "iso_alpha3_code": "GMB"
+  },
+  {
+    "common_name": "Georgia",
+    "iso_alpha3_code": "GEO"
+  },
+  {
+    "common_name": "Ghana",
+    "iso_alpha3_code": "GHA"
+  },
+  {
+    "common_name": "Gibraltar",
+    "iso_alpha3_code": "GIB"
+  },
+  {
+    "common_name": "Granada",
+    "iso_alpha3_code": "GRD"
+  },
+  {
+    "common_name": "Grecia",
+    "iso_alpha3_code": "GRC"
+  },
+  {
+    "common_name": "Groenlandia",
+    "iso_alpha3_code": "GRL"
+  },
+  {
+    "common_name": "Guadalupe",
+    "iso_alpha3_code": "GLP"
+  },
+  {
+    "common_name": "Guam",
+    "iso_alpha3_code": "GUM"
+  },
+  {
+    "common_name": "Guatemala",
+    "iso_alpha3_code": "GTM"
+  },
+  {
+    "common_name": "Guayana Francesa",
+    "iso_alpha3_code": "GUF"
+  },
+  {
+    "common_name": "Guernsey",
+    "iso_alpha3_code": "GGY"
+  },
+  {
+    "common_name": "Guinea",
+    "iso_alpha3_code": "GIN"
+  },
+  {
+    "common_name": "Guinea-Bisáu",
+    "iso_alpha3_code": "GNB"
+  },
+  {
+    "common_name": "Guinea Ecuatorial",
+    "iso_alpha3_code": "GNQ"
+  },
+  {
+    "common_name": "Guyana",
+    "iso_alpha3_code": "GUY"
+  },
+  {
+    "common_name": "Haití",
+    "iso_alpha3_code": "HTI"
+  },
+  {
+    "common_name": "Honduras",
+    "iso_alpha3_code": "HND"
+  },
+  {
+    "common_name": "Hong Kong",
+    "iso_alpha3_code": "HKG"
+  },
+  {
+    "common_name": "Hungría",
+    "iso_alpha3_code": "HUN"
+  },
+  {
+    "common_name": "India",
+    "iso_alpha3_code": "IND"
+  },
+  {
+    "common_name": "Indonesia",
+    "iso_alpha3_code": "IDN"
+  },
+  {
+    "common_name": "Irak",
+    "iso_alpha3_code": "IRQ"
+  },
+  {
+    "common_name": "Irán",
+    "iso_alpha3_code": "IRN"
+  },
+  {
+    "common_name": "Irlanda",
+    "iso_alpha3_code": "IRL"
+  },
+  {
+    "common_name": "Isla Bouvet",
+    "iso_alpha3_code": "BVT"
+  },
+  {
+    "common_name": "Isla de Man",
+    "iso_alpha3_code": "IMN"
+  },
+  {
+    "common_name": "Isla de Navidad",
+    "iso_alpha3_code": "CXR"
+  },
+  {
+    "common_name": "Islandia",
+    "iso_alpha3_code": "ISL"
+  },
+  {
+    "common_name": "Islas Caimán",
+    "iso_alpha3_code": "CYM"
+  },
+  {
+    "common_name": "Islas Cocos",
+    "iso_alpha3_code": "CCK"
+  },
+  {
+    "common_name": "Islas Cook",
+    "iso_alpha3_code": "COK"
+  },
+  {
+    "common_name": "Islas Feroe",
+    "iso_alpha3_code": "FRO"
+  },
+  {
+    "common_name": "Islas Georgias del Sur y Sandwich del Sur",
+    "iso_alpha3_code": "SGS"
+  },
+  {
+    "common_name": "Islas Heard y McDonald",
+    "iso_alpha3_code": "HMD"
+  },
+  {
+    "common_name": "Islas Malvinas",
+    "iso_alpha3_code": "FLK"
+  },
+  {
+    "common_name": "Islas Marianas del Norte",
+    "iso_alpha3_code": "MNP"
+  },
+  {
+    "common_name": "Islas Marshall",
+    "iso_alpha3_code": "MHL"
+  },
+  {
+    "common_name": "Islas Pitcairn",
+    "iso_alpha3_code": "PCN"
+  },
+  {
+    "common_name": "Islas Salomón",
+    "iso_alpha3_code": "SLB"
+  },
+  {
+    "common_name": "Islas Turcas y Caicos",
+    "iso_alpha3_code": "TCA"
+  },
+  {
+    "common_name": "Islas Ultramarinas Menores de los Estados Unidos",
+    "iso_alpha3_code": "UMI"
+  },
+  {
+    "common_name": "Islas Vírgenes Británicas",
+    "iso_alpha3_code": "VGB"
+  },
+  {
+    "common_name": "Islas Vírgenes de los Estados Unidos",
+    "iso_alpha3_code": "VIR"
+  },
+  {
+    "common_name": "Israel",
+    "iso_alpha3_code": "ISR"
+  },
+  {
+    "common_name": "Italia",
+    "iso_alpha3_code": "ITA"
+  },
+  {
+    "common_name": "Jamaica",
+    "iso_alpha3_code": "JAM"
+  },
+  {
+    "common_name": "Japón",
+    "iso_alpha3_code": "JPN"
+  },
+  {
+    "common_name": "Jersey",
+    "iso_alpha3_code": "JEY"
+  },
+  {
+    "common_name": "Jordania",
+    "iso_alpha3_code": "JOR"
+  },
+  {
+    "common_name": "Kazajistán",
+    "iso_alpha3_code": "KAZ"
+  },
+  {
+    "common_name": "Kenia",
+    "iso_alpha3_code": "KEN"
+  },
+  {
+    "common_name": "Kirguistán",
+    "iso_alpha3_code": "KGZ"
+  },
+  {
+    "common_name": "Kiribati",
+    "iso_alpha3_code": "KIR"
+  },
+  {
+    "common_name": "Kuwait",
+    "iso_alpha3_code": "KWT"
+  },
+  {
+    "common_name": "Laos",
+    "iso_alpha3_code": "LAO"
+  },
+  {
+    "common_name": "Lesoto",
+    "iso_alpha3_code": "LSO"
+  },
+  {
+    "common_name": "Letonia",
+    "iso_alpha3_code": "LVA"
+  },
+  {
+    "common_name": "Líbano",
+    "iso_alpha3_code": "LBN"
+  },
+  {
+    "common_name": "Liberia",
+    "iso_alpha3_code": "LBR"
+  },
+  {
+    "common_name": "Libia",
+    "iso_alpha3_code": "LBY"
+  },
+  {
+    "common_name": "Liechtenstein",
+    "iso_alpha3_code": "LIE"
+  },
+  {
+    "common_name": "Lituania",
+    "iso_alpha3_code": "LTU"
+  },
+  {
+    "common_name": "Luxemburgo",
+    "iso_alpha3_code": "LUX"
+  },
+  {
+    "common_name": "Macao",
+    "iso_alpha3_code": "MAC"
+  },
+  {
+    "common_name": "Macedonia del Norte",
+    "iso_alpha3_code": "MKD"
+  },
+  {
+    "common_name": "Madagascar",
+    "iso_alpha3_code": "MDG"
+  },
+  {
+    "common_name": "Malasia",
+    "iso_alpha3_code": "MYS"
+  },
+  {
+    "common_name": "Malaui",
+    "iso_alpha3_code": "MWI"
+  },
+  {
+    "common_name": "Maldivas",
+    "iso_alpha3_code": "MDV"
+  },
+  {
+    "common_name": "Malí",
+    "iso_alpha3_code": "MLI"
+  },
+  {
+    "common_name": "Malta",
+    "iso_alpha3_code": "MLT"
+  },
+  {
+    "common_name": "Marruecos",
+    "iso_alpha3_code": "MAR"
+  },
+  {
+    "common_name": "Martinica",
+    "iso_alpha3_code": "MTQ"
+  },
+  {
+    "common_name": "Mauricio",
+    "iso_alpha3_code": "MUS"
+  },
+  {
+    "common_name": "Mauritania",
+    "iso_alpha3_code": "MRT"
+  },
+  {
+    "common_name": "Mayotte",
+    "iso_alpha3_code": "MYT"
+  },
+  {
+    "common_name": "México",
+    "iso_alpha3_code": "MEX"
+  },
+  {
+    "common_name": "Micronesia",
+    "iso_alpha3_code": "FSM"
+  },
+  {
+    "common_name": "Moldavia",
+    "iso_alpha3_code": "MDA"
+  },
+  {
+    "common_name": "Mónaco",
+    "iso_alpha3_code": "MCO"
+  },
+  {
+    "common_name": "Mongolia",
+    "iso_alpha3_code": "MNG"
+  },
+  {
+    "common_name": "Montenegro",
+    "iso_alpha3_code": "MNE"
+  },
+  {
+    "common_name": "Montserrat",
+    "iso_alpha3_code": "MSR"
+  },
+  {
+    "common_name": "Mozambique",
+    "iso_alpha3_code": "MOZ"
+  },
+  {
+    "common_name": "Birmania",
+    "iso_alpha3_code": "MMR"
+  },
+  {
+    "common_name": "Namibia",
+    "iso_alpha3_code": "NAM"
+  },
+  {
+    "common_name": "Nauru",
+    "iso_alpha3_code": "NRU"
+  },
+  {
+    "common_name": "Nepal",
+    "iso_alpha3_code": "NPL"
+  },
+  {
+    "common_name": "Nicaragua",
+    "iso_alpha3_code": "NIC"
+  },
+  {
+    "common_name": "Níger",
+    "iso_alpha3_code": "NER"
+  },
+  {
+    "common_name": "Nigeria",
+    "iso_alpha3_code": "NGA"
+  },
+  {
+    "common_name": "Niue",
+    "iso_alpha3_code": "NIU"
+  },
+  {
+    "common_name": "Isla Norfolk",
+    "iso_alpha3_code": "NFK"
+  },
+  {
+    "common_name": "Noruega",
+    "iso_alpha3_code": "NOR"
+  },
+  {
+    "common_name": "Nueva Caledonia",
+    "iso_alpha3_code": "NCL"
+  },
+  {
+    "common_name": "Nueva Zelanda",
+    "iso_alpha3_code": "NZL"
+  },
+  {
+    "common_name": "Omán",
+    "iso_alpha3_code": "OMN"
+  },
+  {
+    "common_name": "Países Bajos",
+    "iso_alpha3_code": "NLD"
+  },
+  {
+    "common_name": "Pakistán",
+    "iso_alpha3_code": "PAK"
+  },
+  {
+    "common_name": "Palaos",
+    "iso_alpha3_code": "PLW"
+  },
+  {
+    "common_name": "Palestina",
+    "iso_alpha3_code": "PSE"
+  },
+  {
+    "common_name": "Panamá",
+    "iso_alpha3_code": "PAN"
+  },
+  {
+    "common_name": "Papúa Nueva Guinea",
+    "iso_alpha3_code": "PNG"
+  },
+  {
+    "common_name": "Paraguay",
+    "iso_alpha3_code": "PRY"
+  },
+  {
+    "common_name": "Perú",
+    "iso_alpha3_code": "PER"
+  },
+  {
+    "common_name": "Polinesia Francesa",
+    "iso_alpha3_code": "PYF"
+  },
+  {
+    "common_name": "Polonia",
+    "iso_alpha3_code": "POL"
+  },
+  {
+    "common_name": "Portugal",
+    "iso_alpha3_code": "PRT"
+  },
+  {
+    "common_name": "Puerto Rico",
+    "iso_alpha3_code": "PRI"
+  },
+  {
+    "common_name": "Reino Unido",
+    "iso_alpha3_code": "GBR"
+  },
+  {
+    "common_name": "República Árabe Saharaui Democrática",
+    "iso_alpha3_code": "ESH"
+  },
+  {
+    "common_name": "República Centroafricana",
+    "iso_alpha3_code": "CAF"
+  },
+  {
+    "common_name": "República Checa",
+    "iso_alpha3_code": "CZE"
+  },
+  {
+    "common_name": "República del Congo",
+    "iso_alpha3_code": "COG"
+  },
+  {
+    "common_name": "República Democrática del Congo",
+    "iso_alpha3_code": "COD"
+  },
+  {
+    "common_name": "República Dominicana",
+    "iso_alpha3_code": "DOM"
+  },
+  {
+    "common_name": "Reunión",
+    "iso_alpha3_code": "REU"
+  },
+  {
+    "common_name": "Ruanda",
+    "iso_alpha3_code": "RWA"
+  },
+  {
+    "common_name": "Rumania",
+    "iso_alpha3_code": "ROU"
+  },
+  {
+    "common_name": "Rusia",
+    "iso_alpha3_code": "RUS"
+  },
+  {
+    "common_name": "Samoa",
+    "iso_alpha3_code": "WSM"
+  },
+  {
+    "common_name": "Samoa Americana",
+    "iso_alpha3_code": "ASM"
+  },
+  {
+    "common_name": "San Bartolomé",
+    "iso_alpha3_code": "BLM"
+  },
+  {
+    "common_name": "San Cristóbal y Nieves",
+    "iso_alpha3_code": "KNA"
+  },
+  {
+    "common_name": "San Marino",
+    "iso_alpha3_code": "SMR"
+  },
+  {
+    "common_name": "San Martín",
+    "iso_alpha3_code": "MAF"
+  },
+  {
+    "common_name": "San Pedro y Miquelón",
+    "iso_alpha3_code": "SPM"
+  },
+  {
+    "common_name": "San Vicente y las Granadinas",
+    "iso_alpha3_code": "VCT"
+  },
+  {
+    "common_name": "Santa Elena, Ascensión y Tristán de Acuña",
+    "iso_alpha3_code": "SHN"
+  },
+  {
+    "common_name": "Santa Lucía",
+    "iso_alpha3_code": "LCA"
+  },
+  {
+    "common_name": "Santo Tomé y Príncipe",
+    "iso_alpha3_code": "STP"
+  },
+  {
+    "common_name": "Senegal",
+    "iso_alpha3_code": "SEN"
+  },
+  {
+    "common_name": "Serbia",
+    "iso_alpha3_code": "SRB"
+  },
+  {
+    "common_name": "Seychelles",
+    "iso_alpha3_code": "SYC"
+  },
+  {
+    "common_name": "Sierra Leona",
+    "iso_alpha3_code": "SLE"
+  },
+  {
+    "common_name": "Singapur",
+    "iso_alpha3_code": "SGP"
+  },
+  {
+    "common_name": "San Martín",
+    "iso_alpha3_code": "SXM"
+  },
+  {
+    "common_name": "Siria",
+    "iso_alpha3_code": "SYR"
+  },
+  {
+    "common_name": "Somalia",
+    "iso_alpha3_code": "SOM"
+  },
+  {
+    "common_name": "Sri Lanka",
+    "iso_alpha3_code": "LKA"
+  },
+  {
+    "common_name": "Suazilandia",
+    "iso_alpha3_code": "SWZ"
+  },
+  {
+    "common_name": "Sudáfrica",
+    "iso_alpha3_code": "ZAF"
+  },
+  {
+    "common_name": "Sudán",
+    "iso_alpha3_code": "SDN"
+  },
+  {
+    "common_name": "Sudán del Sur",
+    "iso_alpha3_code": "SSD"
+  },
+  {
+    "common_name": "Suecia",
+    "iso_alpha3_code": "SWE"
+  },
+  {
+    "common_name": "Suiza",
+    "iso_alpha3_code": "CHE"
+  },
+  {
+    "common_name": "Surinam",
+    "iso_alpha3_code": "SUR"
+  },
+  {
+    "common_name": "Svalbard y Jan Mayen",
+    "iso_alpha3_code": "SJM"
+  },
+  {
+    "common_name": "Tailandia",
+    "iso_alpha3_code": "THA"
+  },
+  {
+    "common_name": "Taiwán",
+    "iso_alpha3_code": "TWN"
+  },
+  {
+    "common_name": "Tanzania",
+    "iso_alpha3_code": "TZA"
+  },
+  {
+    "common_name": "Tayikistán",
+    "iso_alpha3_code": "TJK"
+  },
+  {
+    "common_name": "Territorio Británico del Océano Índico",
+    "iso_alpha3_code": "IOT"
+  },
+  {
+    "common_name": "Tierras Australes y Antárticas Francesas",
+    "iso_alpha3_code": "ATF"
+  },
+  {
+    "common_name": "Timor Oriental",
+    "iso_alpha3_code": "TLS"
+  },
+  {
+    "common_name": "Togo",
+    "iso_alpha3_code": "TGO"
+  },
+  {
+    "common_name": "Tokelau",
+    "iso_alpha3_code": "TKL"
+  },
+  {
+    "common_name": "Tonga",
+    "iso_alpha3_code": "TON"
+  },
+  {
+    "common_name": "Trinidad y Tobago",
+    "iso_alpha3_code": "TTO"
+  },
+  {
+    "common_name": "Túnez",
+    "iso_alpha3_code": "TUN"
+  },
+  {
+    "common_name": "Turkmenistán",
+    "iso_alpha3_code": "TKM"
+  },
+  {
+    "common_name": "Turquía",
+    "iso_alpha3_code": "TUR"
+  },
+  {
+    "common_name": "Tuvalu",
+    "iso_alpha3_code": "TUV"
+  },
+  {
+    "common_name": "Ucrania",
+    "iso_alpha3_code": "UKR"
+  },
+  {
+    "common_name": "Uganda",
+    "iso_alpha3_code": "UGA"
+  },
+  {
+    "common_name": "Uruguay",
+    "iso_alpha3_code": "URY"
+  },
+  {
+    "common_name": "Uzbekistán",
+    "iso_alpha3_code": "UZB"
+  },
+  {
+    "common_name": "Vanuatu",
+    "iso_alpha3_code": "VUT"
+  },
+  {
+    "common_name": "Ciudad del Vaticano",
+    "iso_alpha3_code": "VAT"
+  },
+  {
+    "common_name": "Venezuela",
+    "iso_alpha3_code": "VEN"
+  },
+  {
+    "common_name": "Vietnam",
+    "iso_alpha3_code": "VNM"
+  },
+  {
+    "common_name": "Wallis y Futuna",
+    "iso_alpha3_code": "WLF"
+  },
+  {
+    "common_name": "Yemen",
+    "iso_alpha3_code": "YEM"
+  },
+  {
+    "common_name": "Yibuti",
+    "iso_alpha3_code": "DJI"
+  },
+  {
+    "common_name": "Zambia",
+    "iso_alpha3_code": "ZMB"
+  },
+  {
+    "common_name": "Zimbabue",
+    "iso_alpha3_code": "ZWE"
+  }
+]

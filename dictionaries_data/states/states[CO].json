@@ -1,0 +1,134 @@
+[
+  {
+    "iso_state_code": "CO-DC",
+    "state_name": "Distrito Capital de Bogotá"
+  },
+  {
+    "iso_state_code": "CO-AMA",
+    "state_name": "Amazonas"
+  },
+  {
+    "iso_state_code": "CO-ANT",
+    "state_name": "Antioquia"
+  },
+  {
+    "iso_state_code": "CO-ARA",
+    "state_name": "Arauca"
+  },
+  {
+    "iso_state_code": "CO-ATL",
+    "state_name": "Atlántico"
+  },
+  {
+    "iso_state_code": "CO-BOL",
+    "state_name": "Bolívar"
+  },
+  {
+    "iso_state_code": "CO-BOY",
+    "state_name": "Boyacá"
+  },
+  {
+    "iso_state_code": "CO-CAL",
+    "state_name": "Caldas"
+  },
+  {
+    "iso_state_code": "CO-CAQ",
+    "state_name": "Caquetá"
+  },
+  {
+    "iso_state_code": "CO-CAS",
+    "state_name": "Casanare"
+  },
+  {
+    "iso_state_code": "CO-CAU",
+    "state_name": "Cauca"
+  },
+  {
+    "iso_state_code": "CO-CES",
+    "state_name": "Cesar"
+  },
+  {
+    "iso_state_code": "CO-CHO",
+    "state_name": "Chocó"
+  },
+  {
+    "iso_state_code": "CO-COR",
+    "state_name": "Córdoba"
+  },
+  {
+    "iso_state_code": "CO-CUN",
+    "state_name": "Cundinamarca"
+  },
+  {
+    "iso_state_code": "CO-GUA",
+    "state_name": "Guainía"
+  },
+  {
+    "iso_state_code": "CO-GUV",
+    "state_name": "Guaviare"
+  },
+  {
+    "iso_state_code": "CO-HUI",
+    "state_name": "Huila"
+  },
+  {
+    "iso_state_code": "CO-LAG",
+    "state_name": "La Guajira"
+  },
+  {
+    "iso_state_code": "CO-MAG",
+    "state_name": "Magdalena"
+  },
+  {
+    "iso_state_code": "CO-MET",
+    "state_name": "Meta"
+  },
+  {
+    "iso_state_code": "CO-NAR",
+    "state_name": "Nariño"
+  },
+  {
+    "iso_state_code": "CO-NSA",
+    "state_name": "Norte de Santander"
+  },
+  {
+    "iso_state_code": "CO-PUT",
+    "state_name": "Putumayo"
+  },
+  {
+    "iso_state_code": "CO-QUI",
+    "state_name": "Quindío"
+  },
+  {
+    "iso_state_code": "CO-RIS",
+    "state_name": "Risaralda"
+  },
+  {
+    "iso_state_code": "CO-SAP",
+    "state_name": "San Andrés y Providencia"
+  },
+  {
+    "iso_state_code": "CO-SAN",
+    "state_name": "Santander"
+  },
+  {
+    "iso_state_code": "CO-SUC",
+    "state_name": "Sucre"
+  },
+  {
+    "iso_state_code": "CO-TOL",
+    "state_name": "Tolima"
+  },
+  {
+    "iso_state_code": "CO-VAC",
+    "state_name": "Valle del Cauca"
+  },
+  {
+    "iso_state_code": "CO-VAU",
+    "state_name": "Vaupés"
+  },
+  {
+    "iso_state_code": "CO-VID",
+    "state_name": "Vichada"
+  }
+]
