@@ -23,8 +23,8 @@
 | `second_last_name`       | (opcional) Segundo apellido del cliente (puede ser nulo).                                                                             | String                   |
 | `biological_sex`         | (opcional) Sexo biológico del cliente. Ver diccionario en la definición general de la API de clientes finales.                        | String                   |
 | `blood_type`             | (opcional) Tipo de sangre del cliente. Ver diccionario en la definición general de la API de clientes finales.                        | String                   |
-| `nationality_country`    | (opcional) País de nacionalidad del cliente. Ver diccionario en la definición general de la API de clientes finales.                  | String                   |
-| `residence_state`        | (opcional) Estado de residencia del cliente. Ver diccionario en la definición general de la API de clientes finales.                  | String                   |
+| `nationality_country`    | (opcional) País de nacionalidad del cliente. Ver diccionario en la definición general de la API de clientes finales.                  | String (iso alpha3 code)                  |
+| `residence_state`        | (opcional) Estado de residencia del cliente. Ver diccionario en la definición general de la API de clientes finales.                  | String (iso state code)                  |
 | `birth_date`             | (opcional) Fecha de nacimiento del cliente (en formato ISO 8601).  YYYY-MM-DD                                                                      | String (ISO 8601)        |
 | `residence_city`         | (opcional) Ciudad de residencia del cliente.                                                                                          | String                   |
 | `address`                | (opcional) Dirección de residencia del cliente.                                                                                       | String                   |

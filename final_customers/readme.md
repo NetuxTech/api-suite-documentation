@@ -7,15 +7,15 @@ La API de Clientes Finales de Suite permite interactuar con los datos de los cli
 ## Endpoints
 
 - [Obtener clientes finales](/final_customers/endpoints/get-final-customers.md) : ```GET /public/final-customers```
-- [Crear cliente final](/services/endpoints/create-final-customer.md) : ```POST /public/final-customers```
-- [Actualizar cliente final](/services/endpoints/update-final-customer.md) : ```PATCH /public/final-customers```
+- [Crear cliente final](/final_customers/endpoints/create-final-customer.md) : ```POST /public/final-customers```
+- [Actualizar cliente final](/final_customers/endpoints/update-final-customer.md) : ```PATCH /public/final-customers```
 
 
 ## Diccionarios
 
 ### Tipos de documentos
 
-| Description                             | ID |
+| Descripción                             | ID |
 |-----------------------------------------|-------|
 | Cédula de ciudadanía - CC               | CC    |
 | Cédula de extranjería - CE              | CE    |
@@ -34,7 +34,7 @@ La API de Clientes Finales de Suite permite interactuar con los datos de los cli
 
 ### Géneros
 
-| Description                   | ID             |
+| Descripción                   | ID             |
 |-------------------------------|----------------|
 | Hombre                        | 1              |
 | Mujer                         | 2              |
