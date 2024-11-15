@@ -48,6 +48,12 @@ Información de personas asociadas a cada cliente (por ejemplo, personas de cont
 ### Servicios
 Tareas asignadas a los prestadores de servicio.
 
+### Clientes Finales
+Usuarios a quien se le presta el servicio.
+
+### Activos y Bases de datos
+Grupo de datos usado como complemento de datos a otras entidades. 
+
 
 ---
 
