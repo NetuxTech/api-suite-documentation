@@ -6,6 +6,8 @@ La API de Activos de Suite permite interactuar con los datos de los Activos regi
 
 ## Endpoints
 
+- [Obtener tipos de activos](/assets/endpoints/get-asset-types.md) : ```GET /public/asset-types```
+
 - [Obtener activos](/assets/endpoints/get-assets.md) : ```GET /public/assets```
 - [Crear activo](/assets/endpoints/create-asset.md) : ```POST /public/assets```
 - [Actualizar activo](/assets/endpoints/update-asset.md) : ```PATCH /public/assets```
