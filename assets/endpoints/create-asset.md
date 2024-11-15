@@ -21,7 +21,6 @@
 | `name`        | Nombre del activo, utilizado para identificarlo fácilmente.                                               | String       | Sí          |
 | `company`     | (opcional) ID de la compañía a la cual pertenece el activo.                                               | String       | No          |
 | `form`        | (opcional) Objeto que puede contener información adicional específica sobre el activo, en formato de formulario. | Object       | No          |
-   |
 
 
 ## Tipo de respuesta: 
