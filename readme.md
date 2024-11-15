@@ -14,8 +14,8 @@ Puedes integrar tus aplicaciones con nuestra API para crear y obtener datos de:
 - **Tipos de Servicio** - [Ver más](/service_types/readme.md)
 - **Sedes** - [Ver más](/headquarters/readme.md)
 - **Clientes y Contactos** - [Ver más](/customers/readme.md)
-- **Clientes finales** - [Ver más](/final_customers/readme.md)
-- **Activos & Bases de datos** - [Ver más](/assets/readme.md)
+- **Clientes Finales** - [Ver más](/final_customers/readme.md)
+- **Activos y Bases de datos** - [Ver más](/assets/readme.md)
 
 **¿Necesitas ayuda?**  
 Contáctanos en [soporte@netux.com](mailto:soporte@netux.com) y con gusto te ayudaremos con la integración.
