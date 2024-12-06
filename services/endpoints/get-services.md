@@ -28,7 +28,7 @@
 | `service_types[]`           | (opcional) IDs de los tipos de servicio para filtrar los servicios.                    |  String |
 | `headquarter`              | (opcional) ID de la sede asociada al servicio.                                        | String        |
 | `headquarters[]`           | (opcional) Lista de IDs de sedes asociadas al servicio.                               | Array de String |
-| `statuses[]`               | (opcional) Lista de uno o varios estados del servicio. Los valores deben estar entre 1 y 12. | Array de Number |
+| `statuses[]`               | (opcional) Lista de uno o varios estados del servicio. Los valores deben estar entre 1 y 11. | Array de Number |
 | `include_service_type_variables` | (opcional) Indica si se deben incluir variables relacionadas con el tipo de servicio. Por defecto es *false* | Boolean       |
 | `include_service_extended_data` | (opcional) Indica si se deben incluir en la respuesta el flujo de servicio extendido. Por defecto es *false*  | Boolean       |
 | `include_service_summary_data` | (opcional) Indica si se deben incluir en la respuesta los datos de resumen de servicio. Por defecto es *false*  | Boolean       |
