@@ -26,6 +26,9 @@
 | `final_customer`            | (opcional) ID del cliente final asociado al servicio.                                 | String        |
 | `assigned_to`               | (opcional) ID del usuario asignado al servicio.                                       | String        |
 | `service_types[]`           | (opcional) IDs de los tipos de servicio para filtrar los servicios.                    |  String |
+| `headquarter`              | (opcional) ID de la sede asociada al servicio.                                        | String        |
+| `headquarters[]`           | (opcional) Lista de IDs de sedes asociadas al servicio.                               | Array de String |
+| `statuses[]`               | (opcional) Lista de uno o varios estados del servicio. Los valores deben estar entre 1 y 12. | Array de Number |
 | `include_service_type_variables` | (opcional) Indica si se deben incluir variables relacionadas con el tipo de servicio. Por defecto es *false* | Boolean       |
 | `include_service_extended_data` | (opcional) Indica si se deben incluir en la respuesta el flujo de servicio extendido. Por defecto es *false*  | Boolean       |
 | `include_service_summary_data` | (opcional) Indica si se deben incluir en la respuesta los datos de resumen de servicio. Por defecto es *false*  | Boolean       |
@@ -33,7 +36,7 @@
 
 ### Filtrado con Parámetros Repetibles
 
-Algunos parámetros como `service_ids[]` y `service_types[]` pueden enviarse **múltiples veces** en la misma solicitud para filtrar por varios ítems.
+Algunos parámetros como `headquarters[]`, `statuses[]`, `service_ids[]` y `service_types[]` pueden enviarse **múltiples veces** en la misma solicitud para filtrar por varios ítems.
 
 #### Ejemplo:
 ```bash
