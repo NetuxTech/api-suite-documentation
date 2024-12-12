@@ -30,7 +30,7 @@
 | `is_priority`         | (opcional) Indica si el servicio es prioritario (true/false). Por defecto es False.           | Boolean             |
 
 ### Nota:
-El campo *execution_date* debe enviarse en formato ISO 8601. Esto implica que cualquier fecha y hora, independientemente de la zona horaria, debe convertirse a este formato estándar antes de enviarse en la solicitud.
+El campo *execution_date* debe enviarse en formato ISO 8601 y ajustado a la zona horaria UTC-0. Esto significa que cualquier fecha y hora proporcionada, independientemente de la zona horaria en la que se origine, debe ser convertida al formato estándar ISO 8601 en UTC-0 antes de incluirla en la solicitud.
 
 ## Tipo de respuesta: 
 ```Object { Object }```
