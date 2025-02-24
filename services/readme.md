@@ -7,7 +7,9 @@ La API de servicios de Suite permite interactuar con los datos de servicios regi
 ## Endpoints
 
 - [Obtener servicios](/services/endpoints/get-services.md) : ```GET /public/services```
-- [Crear servicios](/services/endpoints/create-service.md) : ```POST /public/services```
+- [Crear un servicio](/services/endpoints/create-service.md) : ```POST /public/services```
+- [Actualizar un servicio](/services/endpoints/update-service.md) : ```PATCH /public/services/{id}```
+- [Actualizar el estado de un servicio](/services/endpoints/update-status.md) : ```PATCH /public/services/status/{id}```
 
 
 ## Diccionarios
