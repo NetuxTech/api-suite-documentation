@@ -31,12 +31,23 @@
 
 ---
 
+### Ejemplo de la solicitud
+
+```bash
+    curl --location --request PATCH 'https://api-hub.tapptus.com/public/services/CZnPJSzZmsmFYT5rk' \
+    --header 'Content-Type: application/json' \
+    --header 'Authorization: Bearer TOKEN' \
+    --data '{
+        "name": "Instalación"
+    }'
+```
+
 ## Tipo de respuesta:
 
 ```json
 {
     "service": {
-        "name": "Instalación de equipo editado",
+        "name": "Instalación",
         "confirmed_by_final_customer": false,
         "is_priority": false,
         "destination_coords": {

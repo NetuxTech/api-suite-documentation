@@ -27,7 +27,7 @@ Cualquier otro valor generará un error de validación.
 ### Ejemplo de la solicitud
 
 ```bash
-    curl --location --request PATCH 'http://localhost:3001/public/services/status/CZnPJSzZmsmFYT5rk' \
+    curl --location --request PATCH 'https://api-hub.tapptus.com/public/services/status/CZnPJSzZmsmFYT5rk' \
     --header 'Content-Type: application/json' \
     --header 'Authorization: Bearer TOKEN' \
     --data '{
